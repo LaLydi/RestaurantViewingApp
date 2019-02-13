@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		004EF5E8221213FD00E38F83 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004EF5E7221213FD00E38F83 /* LocationService.swift */; };
+		004EF5EA2212233D00E38F83 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 004EF5E92212233D00E38F83 /* Podfile */; };
+		004EF5EC2214CDCC00E38F83 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004EF5EB2214CDCC00E38F83 /* NetworkService.swift */; };
 		00616752221000CB00D53097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00616751221000CB00D53097 /* AppDelegate.swift */; };
 		00616754221000CB00D53097 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00616753221000CB00D53097 /* ViewController.swift */; };
 		00616757221000CB00D53097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00616755221000CB00D53097 /* Main.storyboard */; };
@@ -20,10 +22,13 @@
 		00C061352211417F00467DBA /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C061342211417F00467DBA /* RestaurantTableViewCell.swift */; };
 		00C061392211426900467DBA /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C061382211426900467DBA /* LocationView.swift */; };
 		00C0613B221142F300467DBA /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C0613A221142F300467DBA /* LocationViewController.swift */; };
+		082EC91175EDC6B6C155E8B3 /* Pods_RestaurantViewingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B393D073021607E97EACAE99 /* Pods_RestaurantViewingApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		004EF5E7221213FD00E38F83 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		004EF5E92212233D00E38F83 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		004EF5EB2214CDCC00E38F83 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		0061674E221000CB00D53097 /* RestaurantViewingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantViewingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00616751221000CB00D53097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00616753221000CB00D53097 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +43,9 @@
 		00C061342211417F00467DBA /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
 		00C061382211426900467DBA /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		00C0613A221142F300467DBA /* LocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
+		B393D073021607E97EACAE99 /* Pods_RestaurantViewingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RestaurantViewingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAABEF8FC5E10B51B7DEFD99 /* Pods-RestaurantViewingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantViewingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantViewingApp/Pods-RestaurantViewingApp.release.xcconfig"; sourceTree = "<group>"; };
+		EC65A51CF90FD234EE052B7B /* Pods-RestaurantViewingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RestaurantViewingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RestaurantViewingApp/Pods-RestaurantViewingApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				082EC91175EDC6B6C155E8B3 /* Pods_RestaurantViewingApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				004EF5E7221213FD00E38F83 /* LocationService.swift */,
+				004EF5EB2214CDCC00E38F83 /* NetworkService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -62,8 +72,11 @@
 		00616745221000CB00D53097 = {
 			isa = PBXGroup;
 			children = (
+				004EF5E92212233D00E38F83 /* Podfile */,
 				00616750221000CB00D53097 /* RestaurantViewingApp */,
 				0061674F221000CB00D53097 /* Products */,
+				33B8D15EEE5BCE6FA5EE127C /* Pods */,
+				F5C2A4AE43EA8628F2A5CE10 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,6 +165,23 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		33B8D15EEE5BCE6FA5EE127C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC65A51CF90FD234EE052B7B /* Pods-RestaurantViewingApp.debug.xcconfig */,
+				CAABEF8FC5E10B51B7DEFD99 /* Pods-RestaurantViewingApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F5C2A4AE43EA8628F2A5CE10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B393D073021607E97EACAE99 /* Pods_RestaurantViewingApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00616760221000D600D53097 /* Build configuration list for PBXNativeTarget "RestaurantViewingApp" */;
 			buildPhases = (
+				995ABD82B0EA6030E8CE3E60 /* [CP] Check Pods Manifest.lock */,
 				0061674A221000CB00D53097 /* Sources */,
 				0061674B221000CB00D53097 /* Frameworks */,
 				0061674C221000CB00D53097 /* Resources */,
+				910ECC7C8C2BCCF73E63ADD1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,17 +244,72 @@
 			files = (
 				0061675C221000D600D53097 /* LaunchScreen.storyboard in Resources */,
 				00616759221000D600D53097 /* Assets.xcassets in Resources */,
+				004EF5EA2212233D00E38F83 /* Podfile in Resources */,
 				00616757221000CB00D53097 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		910ECC7C8C2BCCF73E63ADD1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RestaurantViewingApp/Pods-RestaurantViewingApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RestaurantViewingApp/Pods-RestaurantViewingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		995ABD82B0EA6030E8CE3E60 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RestaurantViewingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0061674A221000CB00D53097 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004EF5EC2214CDCC00E38F83 /* NetworkService.swift in Sources */,
 				00C0612822113E2E00467DBA /* BaseView.swift in Sources */,
 				00C061392211426900467DBA /* LocationView.swift in Sources */,
 				004EF5E8221213FD00E38F83 /* LocationService.swift in Sources */,
@@ -376,6 +463,7 @@
 		};
 		00616761221000D600D53097 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC65A51CF90FD234EE052B7B /* Pods-RestaurantViewingApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +482,7 @@
 		};
 		00616762221000D600D53097 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAABEF8FC5E10B51B7DEFD99 /* Pods-RestaurantViewingApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
