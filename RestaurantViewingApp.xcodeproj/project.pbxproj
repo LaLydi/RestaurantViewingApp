@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		000AFDF9221DEAA300EAA784 /* DetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000AFDF8221DEAA300EAA784 /* DetailsCollectionViewCell.swift */; };
 		004EF5E8221213FD00E38F83 /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004EF5E7221213FD00E38F83 /* LocationService.swift */; };
 		004EF5EA2212233D00E38F83 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 004EF5E92212233D00E38F83 /* Podfile */; };
 		004EF5EC2214CDCC00E38F83 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004EF5EB2214CDCC00E38F83 /* NetworkService.swift */; };
+		004EF5EE2214D89C00E38F83 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004EF5ED2214D89C00E38F83 /* Models.swift */; };
 		00616752221000CB00D53097 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00616751221000CB00D53097 /* AppDelegate.swift */; };
 		00616754221000CB00D53097 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00616753221000CB00D53097 /* ViewController.swift */; };
 		00616757221000CB00D53097 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00616755221000CB00D53097 /* Main.storyboard */; };
@@ -26,9 +28,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		000AFDF8221DEAA300EAA784 /* DetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCollectionViewCell.swift; sourceTree = "<group>"; };
 		004EF5E7221213FD00E38F83 /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
 		004EF5E92212233D00E38F83 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		004EF5EB2214CDCC00E38F83 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		004EF5ED2214D89C00E38F83 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		0061674E221000CB00D53097 /* RestaurantViewingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantViewingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00616751221000CB00D53097 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00616753221000CB00D53097 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				00C0612C22113F4000467DBA /* DetailsFoodView.swift */,
+				000AFDF8221DEAA300EAA784 /* DetailsCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -136,6 +141,7 @@
 			children = (
 				00C061332211415D00467DBA /* Views */,
 				00C061312211410400467DBA /* RestaurantTableViewController.swift */,
+				004EF5ED2214D89C00E38F83 /* Models.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -312,11 +318,13 @@
 				004EF5EC2214CDCC00E38F83 /* NetworkService.swift in Sources */,
 				00C0612822113E2E00467DBA /* BaseView.swift in Sources */,
 				00C061392211426900467DBA /* LocationView.swift in Sources */,
+				004EF5EE2214D89C00E38F83 /* Models.swift in Sources */,
 				004EF5E8221213FD00E38F83 /* LocationService.swift in Sources */,
 				00C0612D22113F4000467DBA /* DetailsFoodView.swift in Sources */,
 				00C061322211410400467DBA /* RestaurantTableViewController.swift in Sources */,
 				00C0612F2211405100467DBA /* DetailsFoodViewController.swift in Sources */,
 				00616754221000CB00D53097 /* ViewController.swift in Sources */,
+				000AFDF9221DEAA300EAA784 /* DetailsCollectionViewCell.swift in Sources */,
 				00C0613B221142F300467DBA /* LocationViewController.swift in Sources */,
 				00C061352211417F00467DBA /* RestaurantTableViewCell.swift in Sources */,
 				00616752221000CB00D53097 /* AppDelegate.swift in Sources */,
